@@ -13,9 +13,9 @@
 }
 
 .category {
-  --sports-color: #f99500;
-  --ent-color: #a66bbe;
-  --tech-color: #009cff;
+  --news-color: #f99500;
+  --gossip-color: #a66bbe;
+  --intention-color: #009cff;
 }
 
 * {
@@ -80,14 +80,14 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
-.category-sports {
-  background-color: var(--sports-color);
+.category-news {
+  background-color: var(--news-color);
 }
-.category-ent {
-  background-color: var(--tech-color);
+.category-gossip {
+  background-color: var(--gossip-color);
 }
-.category-tech {
-  background-color: var(--ent-color);
+.category-intention {
+  background-color: var(--intention-color);
 }
 
 .btn {
@@ -277,7 +277,7 @@ h6 {
 
 #showcase::before {
   content: '';
-  background: url('../img/qatar.jpg') no-repeat center center/cover;
+  background: url('../img/articles/qatar.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -323,10 +323,10 @@ h6 {
   grid-column: 2 / span 2;
 }
 
-#home-articles .articles-container > *:first-child img,
+/* #home-articles .articles-container > *:first-child img,
 #home-articles .articles-container > *:last-child img {
   width: 48%;
-}
+} */
 
 #article .meta {
   display: flex;
